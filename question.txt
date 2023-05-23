@@ -1,0 +1,45 @@
+CSS
+
+.hide, .hide  + label  ~ div.zakaz {
+    display: none; 
+}
+/* Количество обращений не ограничено в течение всего срока действия договора. */
+label.zakaz {
+width:150px;
+height: 35px;
+color:rgb(0, 0, 0);
+font-size:20pt;
+text-align: center;
+
+width: 586px;
+height: 19px;
+left: 99px;
+top: 51px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+border: 2px solid gray;
+border-radius: 15px;
+padding: 10px;
+color: #000000;
+}
+.zakaz {
+    font-size: 10pt;
+}
+.hide:checked  + label + div.zakaz{
+ display: block; 
+ padding: 20px 40px;
+}
+
+HTML 
+
+<input class="hide" id="hd-1" type="checkbox" >
+    <label class="zakaz" for="hd-1" >Сколько раз в год можно обратиться к терапевту или педиатру по данной программе? </label>
+    <div class="zakaz">
+    <a id="zakaz"></a> 
+    Количество обращений не ограничено в течение всего срока действия договора. 
+    </div>
