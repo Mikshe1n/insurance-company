@@ -14,12 +14,14 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    position: fixed;
+    z-index: 1000;
   }
 .text-h5 {
     font-family: 'SF Pro Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 18pt;
+    font-size: 18px;
     line-height: 21px;
 
     color: #000000;
@@ -28,7 +30,7 @@ body {
     position: fixed;
     width: 73px;
     height: 78px;
-    left: 143px;
+    left: 290px;
     top: 11px;
   }
   
@@ -57,24 +59,28 @@ body {
     position: absolute;
     width: 34px;
     height: 34px;
-    left: 1560px;
-    top: 30px;
+    left: 1490px;
+    top:33px;
     border-radius: 50px;
 }
+
+
+
+
 /* Первый слайд */
 main {
     position: absolute;
     width: 1165px;
     height: 500px;
-    left: 338px;
-    top: 160px;
+    left: 390px;
+    top: 110px;
 
     background: #FFFFFF;
     /* form */
 
     box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
     border-radius: 30px;
-    align-items: center;
+
 }
 .info-section a {
     font-family: 'SF Pro Display';
@@ -138,6 +144,7 @@ main {
 
     display: flex;
     flex-direction: row;
+    text-decoration: none !important;
     justify-content: center;
     align-items: center;
     padding: 20px 75px;
@@ -173,4 +180,486 @@ main {
     height: 516px;
     left: 604px;
     top: 100px;
+}
+
+
+/* Второй слайд */
+.zagolovok p{
+    position: absolute;
+    width: 327px;
+    height: 57px;
+    left: 440px;
+    top: 618px;
+
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    
+    
+    color: #000000;
+
+}
+bdi {
+    position: absolute;
+    width: 111px;
+    height: 17px;
+    left: 27px;
+    top: 4px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* text/white */
+
+    color: #FFFFFF;
+
+}
+section img{
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 48px;
+    top: 34px;
+
+}
+i {
+    position: absolute;
+    width: 132px;
+    height: 34px;
+    left: 16px;
+    top: 124px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    /* text/text */
+
+    color: #0D1C41;
+}
+.block-1 {
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    left: 138px;
+    top: 824px;
+
+    /* color/4 */
+
+    background: #DDD0A4;
+    border-radius: 20px 20px 0px 0px;
+}
+.block-0 {
+    position: absolute;
+    width: 165px;
+    height: 190px;
+    left: 138px;
+    top: 850px;
+
+    background: #FFFFFF;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 20px;
+}
+.block-2 {
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    left: 338px;
+    top: 824px;
+
+    /* color/4 */
+
+    background: #DDD0A4;
+    border-radius: 20px 20px 0px 0px;
+}
+.block-3 {
+    position: absolute;
+    width: 165px;
+    height: 190px;
+    left: 338px;
+    top: 850px;
+
+    background: #FFFFFF;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 20px;
+}
+.block-4 {
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    left: 538px;
+    top: 824px;
+
+    /* color/4 */
+
+    background: #DDD0A4;
+    border-radius: 20px 20px 0px 0px;
+}
+.block-5 {
+    position: absolute;
+    width: 165px;
+    height: 190px;
+    left: 538px;
+    top: 850px;
+
+    background: #FFFFFF;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 20px;
+}
+.block-6 {
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    left: 738px;
+    top: 824px;
+
+    /* color/4 */
+
+    background: #DDD0A4;
+    border-radius: 20px 20px 0px 0px;
+}
+.block-7 {
+    position: absolute;
+    width: 165px;
+    height: 190px;
+    left: 738px;
+    top: 850px;
+
+    background: #FFFFFF;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 20px;
+}
+.block-8 {
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    left: 938px;
+    top: 824px;
+
+    /* color/4 */
+
+    background: #DDD0A4;
+    border-radius: 20px 20px 0px 0px;
+}
+.block-9 {
+    position: absolute;
+    width: 165px;
+    height: 190px;
+    left: 938px;
+    top: 850px;
+
+    background: #FFFFFF;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 20px;
+}
+
+
+/* Третий слайд */
+
+.zagolovok1 {
+    position: absolute;
+    width: 979px;
+    height: 57px;
+    left: 100px;
+    top: 1149px;
+    text-align: center;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.info-section-2 {
+        position: absolute;
+        width: 1077px;
+        height: 1574px;
+        left: 164px;
+        top: 1149px;
+}
+.art1 img{
+    position: absolute;
+    width: 492px;
+    height: 492px;
+    left: 250px;
+    top: 346px;
+
+    /* form */
+
+    filter: drop-shadow(2px 2px 5px rgba(20, 29, 61, 0.15)) drop-shadow(-2px -2px 5px rgba(20, 29, 61, 0.15));
+}
+
+.art-text p{
+    position: absolute;
+    width: 344px;
+    height: 87px;
+    left: 900px;
+    top: 500px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* text/text */
+
+    color: #0D1C41;
+}
+.art-text b{
+    position: absolute;
+    width: 184px;
+    height: 76px;
+    left: 900px;
+    top: 450px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    
+    color: #000000;
+}
+.polosa {
+    position: absolute;
+    width: 138px;
+    height: 27px;
+    left: 0px;
+    top: 1491px;
+
+    background: #D9D9D9;
+}
+
+.art2 img{
+    position: absolute;
+    width: 364px;
+    height: 474px;
+    left: 999px;
+    top: 946px;
+
+    /* form */
+
+    filter: drop-shadow(2px 2px 5px rgba(20, 29, 61, 0.15)) drop-shadow(-2px -2px 5px rgba(20, 29, 61, 0.15));
+}
+
+.art-text2 p{
+    position: absolute;
+    width: 466px;
+    height: 58px;
+    left: 302px;
+    top: 1150px;
+    text-align: left;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    
+
+    color: #0D1C41;
+}
+.art-text2 b {
+    position: absolute;
+    width: 163px;
+    height: 35px;
+    left: 400px;
+    top: 1100px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.66px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.28px;
+
+    color: #000000;
+
+
+}
+.art-text2 img{
+    
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 74px;
+    height: 72px;
+    left: 302px;
+    top: 1080px;
+    
+    background: #FFFFFF;
+    border: 1.5px solid #EBEBEB;
+    border-radius: 16px;
+}
+
+.art-text3 p{
+    position: absolute;
+    width: 282px;
+    height: 58px;
+    left: 980px;
+    top: 1800px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* text/text */
+    
+    color: #0D1C41;
+}
+
+.art-text3 b {
+    position: absolute;
+    width: 321px;
+    height: 76px;
+    left: 980px;
+    top: 1725px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    
+    color: #000000;
+
+
+}
+.art3 img{
+    
+    position: absolute;
+    width: 574px;
+    height: 574px;
+    left: 238px;
+    top: 1500px;
+    
+    /* form */
+    
+    filter: drop-shadow(2px 2px 5px rgba(20, 29, 61, 0.15)) drop-shadow(-2px -2px 5px rgba(20, 29, 61, 0.15));
+    
+}
+
+
+/* 
+четвертый слайд */
+
+.zagolovok2 {
+    position: absolute;
+    width: 600px;
+    height: 57px;
+    left: 700px;
+    top: 3300px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #000000;
+
+}
+
+.info-section-3 {
+    position: absolute;
+    width: 1165px;
+    height: 1296px;
+    left: 360px;
+    top: 3500px;
+}
+.big-block-0 {
+    position: absolute;
+    width: 365px;
+    height: 169px;
+    left: 38px;
+    top: 50px;
+
+    /* color/2 */
+
+    background: #4A607A;
+    /* неактивные карточки */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 10px;
+}
+.big-block-0 b{
+    position: absolute;
+    width: 333px;
+    height: 29px;
+    left: 16px;
+    top: 49px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.big-block-1 {
+    
+position: absolute;
+width: 365px;
+height: 875px;
+left: 38px;
+top: 180px;
+
+background: #FFFFFF;
+/* неактивные карточки */
+
+box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+border-radius: 10px;
+}
+.big-block-1 li{
+    position: absolute;
+    width: 248px;
+    height: 799px;
+    left: 70px;
+    top: 43px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
 }
