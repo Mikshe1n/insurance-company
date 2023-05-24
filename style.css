@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+  /* Шапка сайта */
   header {
     padding: 10px;
     width: 1850px;
@@ -60,4 +60,117 @@ body {
     left: 1560px;
     top: 30px;
     border-radius: 50px;
+}
+/* Первый слайд */
+main {
+    position: absolute;
+    width: 1165px;
+    height: 500px;
+    left: 338px;
+    top: 160px;
+
+    background: #FFFFFF;
+    /* form */
+
+    box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
+    border-radius: 30px;
+    align-items: center;
+}
+.info-section a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+    
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.info-section h1{ 
+    position: absolute;
+    width: 485px;
+    height: 86px;
+    left: 98px;
+    top: 124px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+
+    /* text/text */
+
+    color: #0D1C41;
+}
+.info-section p{
+    position: absolute;
+    width: 365px;
+    height: 51px;
+    left: 98px;
+    top: 234px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* text/text 50 */
+
+    color: #939CA6;
+
+}
+.buy-button {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 75px;
+    gap: 27px;
+
+    position: absolute;
+    width: 265px;
+    height: 59px;
+    left: 99px;
+    top: 377px;
+
+    /* color/body */
+
+    background: #FFFFFF;
+    /* color/2 */
+
+    border: 1px solid #4A607A;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+  }
+  
+  .info-section {
+    padding: 20px;
+  }
+
+  /* Artboard 1 1 */
+
+.artlogo{
+    position: absolute;
+    width: 706px;
+    height: 516px;
+    left: 604px;
+    top: 100px;
 }
