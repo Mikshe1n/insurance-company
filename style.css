@@ -1,21 +1,28 @@
 body {
     margin: 0;
     padding: 0;
+    
+    position: relative;
+    width: 1440px;
+    height: 7433px;
+
+    background: #FFFFFF;
   }
   /* Шапка сайта */
   header {
     padding: 10px;
-    width: 1850px;
+    width: 1900px;
     height: 80px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
+    background: #ffffffee;
     box-shadow: 0px 4px 15px rgba(49, 60, 72, 0.05);
     display: flex;
     align-items: center;
     text-align: center;
     position: fixed;
     z-index: 1000;
+    
   }
 .text-h5 {
     font-family: 'SF Pro Display';
@@ -601,6 +608,7 @@ i {
     left: 360px;
     top: 3500px;
 }
+/* 1 card */
 .big-block-0 {
     position: absolute;
     width: 365px;
@@ -638,7 +646,7 @@ i {
     
 position: absolute;
 width: 365px;
-height: 875px;
+height: 950px;
 left: 38px;
 top: 180px;
 
@@ -648,12 +656,12 @@ background: #FFFFFF;
 box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
 border-radius: 10px;
 }
-.big-block-1 li{
-    position: absolute;
-    width: 248px;
-    height: 799px;
-    left: 70px;
-    top: 43px;
+.big-block-1 ul{
+    padding: 20px 50px;
+    list-style-type: "—";
+}
+.big-block-1 li {
+    padding: 10px;
 
     font-family: 'SF Pro Display';
     font-style: normal;
@@ -663,3 +671,290 @@ border-radius: 10px;
 
     color: #000000;
 }
+.big-block-1 ol {
+    padding: 10px;
+    list-style-type: circle;
+}
+
+/* анимация */
+.view {
+    color:rgb(0, 0, 0);
+    transform:rotate(90deg);
+    }
+.arrow {
+    display:inline-block;
+    }
+
+.download-full{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    width: 365px;
+    height: 59px;
+    
+    top: 990px;
+
+    /* color/body */
+    color: #000000;
+    background: #FFFFFF;
+    /* color/2 */
+
+    border: 1px solid #4A607A;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+}
+.download-full img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 305px;
+    margin-top: -25px;
+}
+
+/* 2 card */
+.big-block-2 {
+    position: absolute;
+    width: 365px;
+    height: 149px;
+    left: 440px;
+    top: 50px;
+
+    /* color/3 */
+
+    background: #A89060;
+    /* неактивные карточки */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 10px;
+}
+
+.big-block-2 p{
+    position: absolute;
+    width: 174px;
+    height: 42px;
+    left: 95px;
+    top: 20px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.big-block-3 {
+    
+    position: absolute;
+    width: 365px;
+    height: 1150px;
+    left: 440px;
+    top: 180px;
+
+    background: #FFFFFF;
+    /* неактивные карточки */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 10px;
+}
+.big-block-3 ul li{
+    position: relative;
+    left: -20px;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 28px;
+
+    /* color/3 */
+
+    color: #A89060;
+}
+.big-block-3 ol {
+    position: relative;
+    left: -40px;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 16px;
+    font-size: 28px;
+
+    /* color/4 */
+
+    color: #000000;
+}
+.big-block-3 p {
+    font-size: 28px;
+    margin-top: 255px;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.big-block-3 b {
+    position: absolute;
+    width: 133px;
+    height: 28px;
+    left: 119px;
+    top: 973px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    color: #000000;
+    }
+.buy-button-packet-2 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 75px;
+    gap: 27px;
+    text-transform: uppercase;
+
+    position: absolute;
+    width: 165px;
+    height: 59px;
+    left: 100px;
+    top: 1050px;
+
+    /* color/body */
+    color: #000000;
+    background: #FFFFFF;
+    /* color/2 */
+
+    border: 1px solid #4A607A;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+}
+
+/* 3 card */
+.big-block-4 {
+    position: absolute;
+    width: 365px;
+    height: 149px;
+    left: 840px;
+    top: 50px;
+
+    /* color/3 */
+
+    background: #A89060;
+    /* неактивные карточки */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 10px;
+}
+
+.big-block-4 p{
+    position: absolute;
+    width: 175px;
+    height: 42px;
+    left: 95px;
+    top: 10px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+
+    color: #FFFFFF;
+}
+
+.big-block-5 {
+    
+    position: absolute;
+    width: 365px;
+    height: 1150px;
+    left: 840px;
+    top: 180px;
+
+    background: #FFFFFF;
+    /* неактивные карточки */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 10px;
+}
+
+.big-block-5 ul li{
+    position: relative;
+    left: -20px;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 18px;
+    font-size: 28px;
+
+    /* color/3 */
+
+    color: #A89060;
+}
+
+.big-block-5 p {
+    font-size: 28px;
+    margin-top: 255px;
+    text-align: center;
+    color: #A89060;
+}
+.big-block-5 b {
+    position: absolute;
+    width: 112px;
+    height: 28px;
+    left: 183px;
+    top: 970px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    /* text/error */
+
+    color: #DC0000;
+    }
+
+.big-block-5 bdi {
+    position: absolute;
+    width: 96px;
+    height: 21px;
+    left: 58px;
+    top: 973px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    /* text/error */
+
+    color: #DC0000;
+
+}
+
