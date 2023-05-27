@@ -28,28 +28,16 @@ document.addEventListener("click", function(event) {
 });
 
 // forms
-var currentStep = 1;
-    var formSteps = document.querySelectorAll('.form-step');
-    
-    function showStep(step) {
-      formSteps.forEach(function(stepElement) {
-        stepElement.classList.remove('active');
-      });
-      document.getElementById('step-' + step).classList.add('active');
-    }
-    
-    function nextStep() {
-      if (currentStep < formSteps.length) {
-        currentStep++;
-        showStep(currentStep);
-      }
-    }
-    
-    function prevStep() {
-      if (currentStep > 1) {
-        currentStep--;
-        showStep(currentStep);
-      }
-    }
-    
-    showStep(currentStep);
+function showForm1() {
+  var form1 = document.getElementById("form1");
+  var form2 = document.getElementById("form2");
+  form1.style.display = "block";
+  form2.style.display = "none";
+}
+
+function showForm2() {
+  var form1 = document.getElementById("form1");
+  var form2 = document.getElementById("form2");
+  form1.style.display = "none";
+  form2.style.display = "block";
+}

@@ -288,42 +288,50 @@
       <div class="podzagolovok">
         <p>Если вы не нашли ответа на свой вопрос, заполните эту форму, а мы как можно быстрее ответим вам.</p></div>
       
-  <section class="forms">
-        <img src="img/formimg.png" alt="" class="form-img">
-        <div class="my-form">
-          <form id="registration-form" method="POST">
-            <div class="form-step" id="step-1">
-              <h2>Шаг 1: Основная информация</h2>
-              <label for="name">Имя:</label>
-              <input type="text" id="name" name="name">
+        <section class="forms">
+          <img src="img/formimg.png" alt="" class="form-img">
+          <div class="my-form">
+            <button class="btn-form" onclick="showForm1()">1</button>
+            <button class="btn-form" onclick="showForm2()">2</button>
+            <hr>
+            <form id="form1" style="display: block;">
+              <div class="form-group">
+                <label class="form-label" for="fio">ФИО:</label><br>
+                <input class="form-input" type="text" id="fio" name="fio" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone">Номер телефона:</label>
+                <input class="form-input" type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-input" type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="region">Регион:</label>
+                <input class="form-input" type="text" id="region" name="region" required>
+              </div>
+              
+              <!-- Добавьте дополнительные поля здесь -->
+              <button class="form-submit" type="submit">Отправить</button>
+              <button class="form-submit" onclick="showForm2()">далее</button>
+            </form>
+          
+            <form id="form2" style="display: none;">
+              <h2>Форма 2</h2>
+              <label for="name2">Имя:</label>
+              <input type="text" id="name2" name="name2" required>
               <br>
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email">
+              <label for="email2">Email:</label>
+              <input type="email" id="email2" name="email2" required>
               <br>
-              <button type="button" class="btn" onclick="nextStep()">Далее</button>
-            </div>
-            
-            <div class="form-step" id="step-2">
-              <h2>Шаг 2: Дополнительная информация</h2>
-              <label for="age">Возраст:</label>
-              <input type="number" id="age" name="age">
-              <br>
-              <label for="address">Адрес:</label>
-              <input type="text" id="address" name="address">
-              <br>
-              <button type="button" class="btn" onclick="prevStep()">Назад</button>
-              <button type="button" class="btn" onclick="nextStep()">Далее</button>
-            </div>
-            
-            <div class="form-step" id="step-3">
-              <h2>Шаг 3: Завершение регистрации</h2>
-              <p>Спасибо за регистрацию!</p>
-              <button type="button" class="btn" onclick="prevStep()">Назад</button>
-              <button type="submit" class="btn">Завершить</button>
-            </div>
-          </form>
-        </div>
-  </section>
+              <input type="submit" value="Отправить">
+            </form>
+          </div>
+        </section>
 
+        <footer>
+
+        </footer>
 </body>
 </html>

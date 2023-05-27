@@ -1284,23 +1284,70 @@ hr {
     top: -53px;
 }
 
-.my-form {
-    position: absolute;
-    width: 1000px;
-    height: 700px;
-    left: 90px;
-
-}
-
-/* forms */
-.form-step {
-    display: none;
+.forms {
+    text-align: left;
   }
-  
-  .form-step.active {
-    display: block;
+
+  .my-form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-left: 500px;
   }
-  
-  .btn {
-    margin-top: 10px;
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form-submit {
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form-submit:hover {
+    background-color: #45a049;
+  }
+
+  .btn-form {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border:1px solid #000000;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s;
+  }
+  .btn-form:hover{
+    font-size: 28px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border:1px solid #000000;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s;
   }
