@@ -1,21 +1,3 @@
-// function viewDiv() {
-//     document.getElementById("block-vis").style.display = "block";
-//   }
-
-// function hideDiv() {
-//     document.getElementById("block-vis").style.display = "none";
-//   }
-
-// function viewDiv() {
-//     var block = document.getElementById("block-vis");
-//     block.style.display = "block";
-  
-//     var animBlock = document.getElementById(".anim-block");
-//     animBlock.addEventListener("click", function() {
-//       block.style.display = "none";
-//     });
-//   }
-
 var activeDiv = null; // Инициализируем переменную для активного div
 
 function showDiv(targetDiv) {
@@ -44,3 +26,30 @@ document.addEventListener("click", function(event) {
     }
   }
 });
+
+// forms
+var currentStep = 1;
+    var formSteps = document.querySelectorAll('.form-step');
+    
+    function showStep(step) {
+      formSteps.forEach(function(stepElement) {
+        stepElement.classList.remove('active');
+      });
+      document.getElementById('step-' + step).classList.add('active');
+    }
+    
+    function nextStep() {
+      if (currentStep < formSteps.length) {
+        currentStep++;
+        showStep(currentStep);
+      }
+    }
+    
+    function prevStep() {
+      if (currentStep > 1) {
+        currentStep--;
+        showStep(currentStep);
+      }
+    }
+    
+    showStep(currentStep);

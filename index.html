@@ -106,7 +106,7 @@
                 </li>
                 <li><span class="view"></span>Рентгенологические исследования <span class="arrow">&gt;</span></li>
                 </ul>
-                <a class="download-full" href="#">скачать полуную версию <img src="img/download.png" alt=""></a>
+                <a class="download-full" href="#" download>скачать полуную версию <img src="img/download.png" alt=""></a>
             </div>
 
             <div class="big-block-2"><p><b>Защита + 
@@ -288,7 +288,42 @@
       <div class="podzagolovok">
         <p>Если вы не нашли ответа на свой вопрос, заполните эту форму, а мы как можно быстрее ответим вам.</p></div>
       
-      
+  <section class="forms">
+        <img src="img/formimg.png" alt="" class="form-img">
+        <div class="my-form">
+          <form id="registration-form" method="POST">
+            <div class="form-step" id="step-1">
+              <h2>Шаг 1: Основная информация</h2>
+              <label for="name">Имя:</label>
+              <input type="text" id="name" name="name">
+              <br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+              <br>
+              <button type="button" class="btn" onclick="nextStep()">Далее</button>
+            </div>
+            
+            <div class="form-step" id="step-2">
+              <h2>Шаг 2: Дополнительная информация</h2>
+              <label for="age">Возраст:</label>
+              <input type="number" id="age" name="age">
+              <br>
+              <label for="address">Адрес:</label>
+              <input type="text" id="address" name="address">
+              <br>
+              <button type="button" class="btn" onclick="prevStep()">Назад</button>
+              <button type="button" class="btn" onclick="nextStep()">Далее</button>
+            </div>
+            
+            <div class="form-step" id="step-3">
+              <h2>Шаг 3: Завершение регистрации</h2>
+              <p>Спасибо за регистрацию!</p>
+              <button type="button" class="btn" onclick="prevStep()">Назад</button>
+              <button type="submit" class="btn">Завершить</button>
+            </div>
+          </form>
+        </div>
+  </section>
 
 </body>
 </html>

@@ -4,7 +4,7 @@ body {
     
     position: relative;
     width: 1440px;
-    height: 8000px;
+    height: 8500px;
 
     background: #FFFFFF;
   }
@@ -720,7 +720,6 @@ border-radius: 10px;
     width: 40px;
     height: 40px;
     left: 305px;
-    margin-top: -25px;
 }
 
 /* 2 card */
@@ -1267,3 +1266,41 @@ hr {
     color: #0D1C41;
 
 }   
+/* 8 слайд */
+.forms {
+    position: absolute;
+    width: 1900px;
+    height: 719px;
+    left: 0px;
+    top: 7800px;
+
+    background: #ffffff;
+}
+.form-img {
+    position: absolute;
+    width: 772px;
+    height: 772px;
+    left: 1000px;
+    top: -53px;
+}
+
+.my-form {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    left: 90px;
+
+}
+
+/* forms */
+.form-step {
+    display: none;
+  }
+  
+  .form-step.active {
+    display: block;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
