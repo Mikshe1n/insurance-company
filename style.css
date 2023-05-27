@@ -1012,6 +1012,7 @@ border-radius: 10px;
     -webkit-transition: all 600ms;
     transition: all 600ms;
     z-index: 20;
+    cursor: pointer;
 }
 
     .card div {
@@ -1102,6 +1103,7 @@ label:hover :checked + .card {
     margin: 10px;
     text-align: center; /*Центрируем текст по горизонтали*/
     transition: 0.5s;
+    cursor: pointer;
 }
 .abimg {
     position: relative;
@@ -1150,6 +1152,7 @@ label:hover :checked + .card {
     box-shadow: 0px 2px 18px rgba(32, 32, 32, 0.274);
 
   }
+
   .download-arh{
     box-sizing: border-box;
 
@@ -1173,7 +1176,94 @@ label:hover :checked + .card {
 
     box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
     border-radius: 6px;
+    cursor: pointer;
   }
 hr {
     color: #A89060;
 }
+
+/* 7 слайд */
+
+.zagolovok5 p{
+    position: relative;
+    width: 644px;
+    height: 114px;
+    left: 640px;
+    top: 7100px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+
+    color: #000000;
+}
+.dw-pdf{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 75px;
+    gap: 27px;
+
+    position: absolute;
+    width: 265px;
+    height: 59px;
+    left: 830px;
+    top: 7329px;
+
+    /* color/body */
+
+    background: #FFFFFF;
+    /* color/2 */
+
+    border: 1px solid #4A607A;
+    /* norm */
+    font-size: 18px;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.zagolovok6 p{
+    position: relative;
+    width: 644px;
+    height: 114px;
+    left: 640px;
+    top: 7400px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+
+    color: #000000;
+}
+.podzagolovok p {
+    position: absolute;
+    width: 444px;
+    height: 42px;
+    left: 740px;
+    top: 7650px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    /* text/text */
+
+    color: #0D1C41;
+
+}   
