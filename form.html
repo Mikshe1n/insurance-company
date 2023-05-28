@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900);
+.contact-form {
+  margin-top: 10px;
+}
+.contact-form .input-block {
+  width: 99%;
+  height: 20px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  border-radius: 20px;
+}
+
+.contact-form .input-block.focus {
+  background-color: #fff;
+  border: solid 1px #fb2900;
+  
+}
+.contact-form .input-block.textarea {
+  height: auto;
+}
+.contact-form .input-block.textarea .form-control {
+  height: auto;
+  resize: none;
+  padding: 20px;
+}
+.contact-form .input-block label {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  display: block;
+  margin: 0;
+  font-weight: 300;
+  z-index: 1;
+  color: #333;
+  font-size: 18px;
+  line-height: 10px;
+}
+.contact-form .input-block .form-control {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border: 2px solid black;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 20px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 20px;
+  margin: -20px;
+  position: relative;
+  width: 97%;
+  z-index: 0;
+  font-size: 18px;
+  color: #333;
+  padding: 20px;
+}
+.contact-form .input-block .form-control:focus label {
+  top: 0;
+}
+.contact-form .square-button {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #fb2900;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 0 60px;
+  height: 60px;
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+}
+.contact-form .square-button:hover, .contact-form .square-button:focus {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .contact-wrap {
+    width: 60%;
+    margin: auto;
+  }
+}
+/*----page styles---*/
+body {
+
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffbd2f), color-stop(100%, #442c00));
+  background-image: -moz-linear-gradient(left, #009166, #004b45);
+  background-image: -webkit-linear-gradient(left, #009166, #004b45);
+  background-image: linear-gradient(to right, #009166, #004b45);
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-wrap {
+  padding: 15px;
+}
+
+h1 {
+  color: #ff781e;
+  padding: 40px;
+  margin: 0 0 50px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+h1 small {
+  font-size: 18px;
+  display: block;
+  text-transform: none;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #ffc400;
+}
+
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #0099ff;
+}
+.made-with-love i {
+  font-style: normal;
+  color: #f50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.made-with-love a {
+  color: #00dbe2;
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <h1> Заполните форму
+        <small>Мы постараемся ответить как можно скорее)))</small>
+      </h1>
+      <section class="contact-wrap">
+        <form action="" class="contact-form">
+          <div class="col-sm-6">
+            <div class="input-block">
+              <input type="text" class="form-control" placeholder="ФИО*">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="input-block">
+              <input type="text" class="form-control" placeholder="Номер телефона*">
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="input-block">
+              <input type="text" class="form-control" placeholder="Email*">
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="input-block">
+              <input type="text" class="form-control" placeholder="Наименование страхового продукта*">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="input-block">
+              <input type="text" class="form-control" placeholder="Номер полиса*">
+            </div>
+          </div>
+          
+          <div class="col-sm-12">
+            <div class="input-block textarea">
+              
+              <textarea rows="3" type="text" class="form-control" placeholder="Ваше сообщение"></textarea>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <button class="square-button">Отправить</button>
+          </div>
+        </form>
+      </section>
+      
+      <!-- follow me template -->
+      <div class="made-with-love">
+        Made with 
+        <i>♥</i> by 
+        <a target="_blank" href="https://github.com/Mikshe1n">Mikhail ilyichev</a>
+      </div>
+      <script>
+        //material contact form animation
+$('.contact-form').find('.form-control').each(function() {
+  var targetItem = $(this).parent();
+  if ($(this).val()) {
+    $(targetItem).find('label').css({
+      'top': '10px',
+      'fontSize': '14px'
+    });
+  }
+})
+$('.contact-form').find('.form-control').focus(function() {
+  $(this).parent('.input-block').addClass('focus');
+  $(this).parent().find('label').animate({
+    'top': '10px',
+    'fontSize': '14px'
+  }, 300);
+})
+$('.contact-form').find('.form-control').blur(function() {
+  if ($(this).val().length == 0) {
+    $(this).parent('.input-block').removeClass('focus');
+    $(this).parent().find('label').animate({
+      'top': '25px',
+      'fontSize': '18px'
+    }, 300);
+  }
+})
+      </script>
+</body>
+</html>
