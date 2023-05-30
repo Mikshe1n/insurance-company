@@ -847,6 +847,7 @@ border-radius: 10px;
 .buy-button-packet-2 {
     box-sizing: border-box;
 
+
     /* Auto layout */
 
     display: flex;
@@ -874,6 +875,9 @@ border-radius: 10px;
 
     box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
     border-radius: 6px;
+}
+.buy-button-packet-2:hover{
+    background-color: #d6d6d6;
 }
 
 /* 3 card */
