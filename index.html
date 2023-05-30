@@ -300,17 +300,17 @@
             <form id="form1" style="display: block;">
               <div class="form-group">
                 <label class="form-label" for="fio">ФИО</label><br>
-                <input class="form-input" type="text" id="fio" name="fio" placeholder="Иванов Иван Иванович"><br>
+                <input class="form-input" type="text" id="fio" name="fio" placeholder="Иванов Иван Иванович" required><br>
                 
               </div>
               <div class="form-group">
                 <label class="form-label" for="phone">Номер телефона</label><br>
-                <input class="form-input" type="tel" id="phone" name="phone" placeholder="+7900123****"><br>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="+7900123****" required><br>
                 <div id="phoneValue"></div>
               </div>
               <div class="form-group">
                 <label class="form-label" for="email">Email</label><br>
-                <input class="form-input" type="email" id="email" name="email" placeholder="qwerty****@ya.ru"><br>
+                <input class="form-input" type="email" id="email" name="email" placeholder="qwerty****@ya.ru" required><br>
                 <div id="emailValue"></div>
               </div>
               <div class="form-group">
@@ -325,11 +325,13 @@
               <a href="#forms"><button class="form-submit" type="reset" value="reset">Очистить</button></a>
               <button class="form-submit" onclick="showForm2()">Далее</button>
             </form>
-        
+                
+           
+
             <form id="form2" style="display: none;">
               <div class="form-group">
                 <label class="form-label" for="category1">Наименование страхового продукта</label><br>
-                <select id="category1" class="form-input" onchange="updateCategory()">
+                <select id="category1" class="form-input-sel" onchange="updateCategory()">
                   <option value="option1">Защита + виртуальная клиника</option>
                   <option value="option2">Защита + лабораторные исследования</option>
                   
@@ -337,29 +339,31 @@
               </div>
               <div class="form-group">
                 <label class="form-label" for="category2">Выберите тему</label><br>
-                <select id="category2" class="form-input" onchange="updateCategory()">
+                <select id="category2" class="form-input-sel" onchange="updateCategory()">
                   <option value="option1">Расторжение страхового полиса</option>
                   <option value="option2">Жалоба</option>
                   <option value="option3">Предложение</option>
                 </select>
               </div>
-              <label class="form-label" for="phone">Номер полиса</label><br>
-                <input class="form-input" type="tel" id="phone" name="phone" placeholder="12345678"><br>
+                <label class="form-label" for="phone">Номер полиса</label><br>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="1234-567-89" required><br>
                 <div id="phoneValue"></div>
               <div class="form-group">
                 <label class="form-label" for="message">Ваше сообщение</label>
                 <textarea name="message" id="message" cols="0" rows="5" placeholder="Здравствуйте, ..."></textarea>
                 <div id="messageValue"></div>
               </div>
-              <a href="" download>
-                <button>Выбрать файл</button>
-              </a>
+              
+              <input class="btn-file" type="file">
+              
+              <h4>JPG, GIF или PNG. Максимальный размер 1 мб. </h4>
+
 
               <a href="#forms"><button class="form-submit" type="reset" value="reset">Очистить</button></a>
-              <button class="form-submit" type="submit">Отправить</button>
+              <button class="form-submit" type="submit" onclick="handleSubmit()">Отправить</button>
             </form>
           </div>
-        
+          
 
         <footer>
 
