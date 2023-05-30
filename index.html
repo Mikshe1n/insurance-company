@@ -325,13 +325,15 @@
               </div>
         
               <a href="#forms"><button class="form-submit" type="reset" value="reset">Очистить</button></a>
-              <button class="form-submit" onclick="showForm2()">Далее</button>
+              <!-- <button class="form-submit" onclick="showForm2()">Далее</button> -->
             </form>
-        
+                
+           
+
             <form id="form2" style="display: none;">
               <div class="form-group">
                 <label class="form-label" for="category1">Наименование страхового продукта</label><br>
-                <select id="category1" class="form-input" onchange="updateCategory()">
+                <select id="category1" class="form-input-sel" onchange="updateCategory()">
                   <option value="option1">Защита + виртуальная клиника</option>
                   <option value="option2">Защита + лабораторные исследования</option>
                   
@@ -339,14 +341,14 @@
               </div>
               <div class="form-group">
                 <label class="form-label" for="category2">Выберите тему</label><br>
-                <select id="category2" class="form-input" onchange="updateCategory()">
+                <select id="category2" class="form-input-sel" onchange="updateCategory()">
                   <option value="option1">Расторжение страхового полиса</option>
                   <option value="option2">Жалоба</option>
                   <option value="option3">Предложение</option>
                 </select>
               </div>
-              <label class="form-label" for="phone">Номер полиса</label><br>
-                <input class="form-input" type="tel" id="phone" name="phone" placeholder="12345678"><br>
+                <label class="form-label" for="phone">Номер полиса</label><br>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="1234-567-89"><br>
                 <div id="phoneValue"></div>
               <div class="form-group">
                 <label class="form-label" for="message">Ваше сообщение</label>
