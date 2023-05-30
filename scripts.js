@@ -42,43 +42,15 @@ function showForm2() {
   form2.style.display = "block";
 }
 
-// document.getElementById('fio').addEventListener('input', function() {
-//   document.getElementById('fioValue').innerText = this.value;
-// });
+function handleSubmit(event) {
+  event.preventDefault();
 
-// document.getElementById('phone').addEventListener('input', function() {
-//   document.getElementById('phoneValue').innerText = this.value;
-// });
-
-// document.getElementById('email').addEventListener('input', function() {
-//   document.getElementById('emailValue').innerText = this.value;
-// });
-
-// document.getElementById('region').addEventListener('input', function() {
-//   document.getElementById('regionValue').innerText = this.value;
-// });
-
-// document.getElementById('productName').addEventListener('input', function() {
-//   document.getElementById('productNameValue').innerText = this.value;
-// });
-
-// document.getElementById('topic').addEventListener('input', function() {
-//   document.getElementById('topicValue').innerText = this.value;
-// });
-
-// document.getElementById('policyNumber').addEventListener('input', function() {
-//   document.getElementById('policyNumberValue').innerText = this.value;
-// });
-
-// document.getElementById('message').addEventListener('input', function() {
-//   document.getElementById('messageValue').innerText = this.value;
-// });
-
-
-// function updateCategory() {
-//   var selectedCategory = document.getElementById("category").value;
-//   // Действия, которые нужно выполнить в зависимости от выбранной категории
-//   console.log("Выбрана категория: " + selectedCategory);
-//   // Другой код для обработки выбора категории
-// }
-
+  const form = event.target;
+  const isValid = validateForm
+  if (isValid) {
+    alert('Форма отправлена!');
+    form.reset();
+  } else {
+    alert('Пожалуйста, заполните все обязательные поля.');
+  }
+}
