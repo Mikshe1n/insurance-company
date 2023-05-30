@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptiv.css">
     <script src="scripts.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">
+            
+          <ul><div class="logo">
                 <a href=""><img src="img/logo.png" alt="Логотип"></a>
             </div>
-          <ul>
             <li><a href="#" class="text-h5" style="color: #000000;">Главная</a></li>
             <li><a href="#o-nas" class="text-h5" style="color: #000000;">О нас</a></li>
             <li><a href="#help" class="text-h5" style="color: #000000;">Помощь</a></li>
@@ -24,9 +25,9 @@
               <option value="option3">Екатеринбург</option>
               </select></li>
             <li><a href="https://web.whatsapp.com/" target="_blank" class="text-h5" style="font-size: 24px;">+7 495 967 13 01</a></li>
-            <li><a href="#" class="text-h5" style="color: #0D1C41;">Личный кабинет</a></li>
-          </ul>
-          <div class="lkimg"><img src="img/LK.jpg" alt="Личный кабинет" ></div>
+            <li><a href="#" class="text-h5" style="color: #0D1C41;">Личный кабинет</a></li><div class="lkimg"><img src="img/LK.jpg" alt="Личный кабинет" ></div>
+            </ul>
+          
         </nav>
       </header>
       <main>
@@ -358,9 +359,9 @@
               
               <h4>JPG, GIF или PNG. Максимальный размер 1 мб. </h4>
 
-
+              <input type="checkbox" onclick="alerted()">Я принимаю <a>передачи информации условия</a> </input><br>
               <a href="#forms"><button class="form-submit" type="reset" value="reset">Очистить</button></a>
-              <button class="form-submit" type="submit" onclick="handleSubmit()">Отправить</button>
+              <button class="form-submit" type="submit" onclick="handleSubmit(event)">Отправить</button>
             </form>
           </div>   
 </body>
