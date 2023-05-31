@@ -59,9 +59,45 @@ header {
   position: fixed;
   width: 73px;
   height: 78px;
-  left: 10px;
+  left: 380px;
   top: 11px;
 }
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  .hamburger {
+    display: none;
+  }
+  
+  .hamburger .line{
+    width: 24px;
+    height: 3px;
+    background-color: #000000;
+    display: block;
+    margin: 6px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3 ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .hamburger:hover{
+    cursor: pointer;
+  }
+
+  #hamburger-1.is-active .line:nth-child(2) {
+    opacity: 0;
+  }
+  #hamburger-1.is-active .line:nth-child(1) {
+    -webkit-transform: translateY(9px) rotate(45deg);
+    transform: translateY(9px) rotate(45deg);
+  }
+  #hamburger-1.is-active .line:nth-child(3) {
+    -webkit-transform: translateY(-9px) rotate(-45deg);
+    transform: translateY(-9px) rotate(-45deg);
+  }
 
   nav ul {
     list-style-type: none;
@@ -76,20 +112,20 @@ header {
   
   nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-left: 20px;
   }
   
   nav ul li a {
     text-decoration: none;
-    padding: 10px;
+    padding: 30px;
   }
 
 .lkimg img {
     position: absolute;
     width: 34px;
     height: 34px;
-    right: 20px;
-    top: 23px;
+    right: 400px;
+    top: 33px;
     border-radius: 50px;
 }
 
@@ -231,6 +267,7 @@ main {
     color: #000000;
 
 }
+
 .info-block bdi {
     position: absolute;
     width: 111px;
@@ -1297,6 +1334,7 @@ hr {
     height: 772px;
     left: 1000px;
     top: 7800px;
+    z-index: -100;
 }
 
 
@@ -1309,7 +1347,7 @@ hr {
     border-radius: 14px;
     margin-left: 450px;
     margin-top: 7500px;
-
+    background-color: rgba(255, 255, 255, 0.76);
   }
 
   .form-group {

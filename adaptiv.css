@@ -1,21 +1,406 @@
+@media only screen and (max-width: 1440px){
+    .lkimg img {
+        right: 200px;
+        top: 33px;
+    }
+    .logo img {
+        left: 300px;
+    }
+    nav ul {
+        margin-left: 40px;
+      }
+    main {
+        left: 300px;
+    }
+    .zagolovok p{
+        left: 720px;
+    }
+    .block-1 {
+        left: 388px;
+      }
+      .block-0 {
+        left: 388px;
+      }
+      .block-2 {
+        left: 588px;
+      }
+      .block-3 {
+        left: 588px;
+      }
+      .block-4 {
+        left: 788px;
+      } 
+      .block-5 {
+        left: 788px;
+      }
+      .block-6 {
+        left: 988px;
+        
+      }
+      .block-7 {
+        left: 988px;
+        
+      }
+      .block-8 {
+        left: 1188px;
+        
+      }
+      .block-9 {
+        left: 1188px;     
+      }
+      .art2 img{
+        left: 900px;
+      }
+      .zagolovok2 {
+        left: 630px;
+      }
+      .info-section-3 {
+        left: 260px;
+      }
+      .zagolovok3 {
+        left: 585px;
+      }
+      .question {
+        left: 510px;
+      }
+      .zagolovok4 {
+        left: 570px;
+      }
+      .info-section-4 {
+        left: 500px;
+      }
+      .zagolovok5 p{
+        left: 565px;
+      }
+      .dw-pdf{
+        left: 750px;
+      }
+      .zagolovok6 p{
+        left: 565px;
+      }
+      .podzagolovok p {
+        left: 665px;
+      }
+      .form-img {
+        width: 580px;
+        height: 580px;
+        left: 900px;
+        top: 7800px;
+      }
+}
+
 
 @media only screen and (max-width: 1200px){
+
+    .logo img {
+        left: 300px;
+    }
+      .lkimg img {
+        right: -110px;
+    }
+
+    main {
+        left: 300px;
+    }
+    
+    .zagolovok p{
+        left: 720px;
+    }
+    .block-1 {
+        left: 388px;
+      }
+      .block-0 {
+        left: 388px;
+      }
+      .block-2 {
+        left: 588px;
+      }
+      .block-3 {
+        left: 588px;
+      }
+      .block-4 {
+        left: 788px;
+      } 
+      .block-5 {
+        left: 788px;
+      }
+      .block-6 {
+        left: 988px;
+        
+      }
+      .block-7 {
+        left: 988px;
+        
+      }
+      .block-8 {
+        left: 1188px;
+        
+      }
+      .block-9 {
+        left: 1188px;     
+      }
+      .art2 img{
+        left: 900px;
+      }
+      .zagolovok2 {
+        left: 630px;
+      }
+      .info-section-3 {
+        left: 260px;
+      }
+      .zagolovok3 {
+        left: 585px;
+      }
+      .question {
+        left: 510px;
+      }
+      .zagolovok4 {
+        left: 570px;
+      }
+      .info-section-4 {
+        left: 500px;
+      }
+      .zagolovok5 p{
+        left: 565px;
+      }
+      .dw-pdf{
+        left: 750px;
+      }
+      .zagolovok6 p{
+        left: 565px;
+      }
+      .podzagolovok p {
+        left: 665px;
+      }
+      .form-img {
+        width: 572px;
+        height: 572px;
+        left: 900px;
+        top: 7800px;
+      }
+
 
 }
 
 
 @media only screen and (max-width: 992px){
-    
+    header {
+        width: 100%;
+      }
+      nav ul {
+        margin-left: 40px;
+      }
+      .lkimg img {
+        right: 200px;
+    }
+    .logo img {
+        left: 270px;
+    }
+    main {
+        left: 260px;
+    }
+    .zagolovok p{
+        left: 690px;
+    }
+    .zagolovok1 {
+        left: 400px;
+    }
+    .art2 img{
+        left: 850px;
+    }
+
+    .form-img {
+        position: absolute;
+        width: 550px;
+        height: 550px;
+        left: 1000px;
+        top: 7850px;
+    }
+    .art-text3 b{
+        left: 920px;
+    }
+    .art-text3 p{
+        left: 920px;
+    }
+    .zagolovok2 {
+        left: 600px;
+    }
+    .info-section-3 {
+        left: 220px;
+    }
+    .zagolovok3 {
+        left: 550px;
+    }
+    .question {
+        left: 475px;
+    }
+    .zagolovok4 {
+        left: 535px;
+    }
+    .info-section-4 {
+        left: 460px;
+    }
+    .zagolovok5 p{
+        left: 520px;
+    }
+    .dw-pdf{
+        left: 710px;
+    }
+    .zagolovok6 p{
+        left: 520px;
+    }
+    .podzagolovok p {
+        left: 620px;
+    }
+    .form-img {
+        width: 550px;
+        height: 550px;
+        left: 850px;
+        top: 7800px;
+    }
+
+
 }
 
 
 @media only screen and (max-width: 768px){
-    
+    header{
+        padding: 10px 15px;
+        position: relative;
+    }
+    .mnu-top {
+        display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+    .mnu-top li{
+        display: block;
+        margin: 10px;
+        width: 100%;
+    }
+    .lkimg{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
 }
-
-
+@media (min-width: 769px) {
+    .hamburger {
+      display: none;
+    }
+  
+    ul {
+      display: flex;
+    }
+  }
+/* hamburger */
 @media only screen and (max-width: 480px){
-    
+    .logo img {
+        left: 300px;
+    }
+      nav ul {
+        margin-left: 10px;
+      }
+      main {
+        left: 200px;
+      }
+      .zagolovok p{
+        left: 600px;
+      }
+
+      .block-1 {
+        left: 288px;
+      }
+      .block-0 {
+        left: 288px;
+      }
+      .block-2 {
+        left: 488px;
+      }
+      .block-3 {
+        left: 488px;
+      }
+      .block-4 {
+        left: 688px;
+      } 
+      .block-5 {
+        left: 688px;
+      }
+      .block-6 {
+        left: 888px;
+        
+      }
+      .block-7 {
+        left: 888px;
+        
+      }
+      .block-8 {
+        left: 1088px;
+        
+      }
+      .block-9 {
+        left: 1088px;
+        
+      }
+      .zagolovok1 {
+        left: 280px;
+      }
+      .info-section-2 {
+        left: 0;
+      }
+      .art1 img{
+        left: 150px;
+      }
+
+      .zagolovok2 {
+        left: 530px;
+      }
+      .info-section-3 {
+        left: 200px;
+      }
+
+      .zagolovok3 {
+        left: 490px;
+      }
+      .question {
+        left: 420px;
+      }
+      
+      .zagolovok4 {
+        left: 480px;
+      }
+      .info-section-4 {
+        left: 415px;
+      }
+      .show-div{
+        top: 40px;
+      }
+
+      .zagolovok5 p{
+        left: 480px;
+      }
+      .dw-pdf{
+        left: 670px;
+      }
+      .zagolovok6 p{
+        left: 480px;
+      }
+      .podzagolovok p {
+        left: 580px;
+      }
+      .form-img {
+        position: absolute;
+        width: 420px;
+        height: 420px;
+        left: 800px;
+        top: 7800px;
+        z-index: -100;
+      }
+      .my-form {
+        background-color: rgba(255, 255, 255, 0.829);
+      }
 }
 
 
