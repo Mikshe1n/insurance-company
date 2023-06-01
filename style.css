@@ -68,6 +68,8 @@ header {
     align-items: center;
     height: 80px;
   }
+
+  
   .hamburger {
     display: none;
   }
